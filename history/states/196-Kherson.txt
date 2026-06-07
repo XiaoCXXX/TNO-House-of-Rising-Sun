@@ -1,0 +1,39 @@
+state = {
+	id = 196
+	name = "STATE_196"
+	manpower = 400000
+	
+	state_category = rural
+	
+	resources = {
+		chromium = 15 # was: 22
+	}
+
+	history = {
+
+		owner = SOV
+		add_core_of = SOV
+		add_core_of = UKR
+		add_core_of = CRI
+
+		victory_points = {
+			767 1 
+		}
+		
+		buildings = {
+			infrastructure = 2 #was: 5
+			air_base = 2
+
+			# Kakhovka Dam
+			#737 = { dam = 1 }
+			
+		}
+		
+	}
+
+	provinces = {
+		568 737 767 3755 6771 9712 18245 
+	}
+
+	local_supplies = 0.0 
+}

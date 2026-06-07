@@ -1,0 +1,29 @@
+state={
+	id=1111
+	name="STATE_1111"
+
+	history = {
+
+		owner = SOV
+
+		buildings = {
+			infrastructure = 1
+
+		}
+		add_core_of = SOV
+		add_core_of = TAJ
+		add_core_of = BUK
+		add_claim_by = SIK
+		add_claim_by = CHI
+		add_claim_by = PRC
+
+	}
+
+	provinces={
+		4923 8027 10417 12805 14751 15970 18656 
+	}
+	manpower=85000
+	buildings_max_level_factor=1
+	state_category = wasteland
+	local_supplies=0
+}

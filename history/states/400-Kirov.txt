@@ -1,0 +1,28 @@
+
+state = {
+	id = 400
+	name = "STATE_400"
+	manpower = 1115214
+	resources = {
+		aluminium = 14 # was: 20
+	}
+
+	state_category = town
+
+	history = {
+		owner = SOV
+		buildings = {
+			infrastructure = 2
+		}
+		add_core_of = SOV
+		add_claim_by = WRS
+		victory_points = {
+			6133 1
+		}
+	}
+
+	provinces = {
+		45 88 119 3041 3102 3112 3146 3177 3186 6110 6133 6171 6213 9114 9146 9155 9192 9214 9232 10200 11025 11051 11061 11110 11133 11170 11192 11193 14354 17430 
+	}
+	local_supplies = 0.0 
+}

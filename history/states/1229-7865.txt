@@ -1,0 +1,24 @@
+state={
+	id=1229
+	name="STATE_1229"
+
+	history = {
+		owner = SOV
+		buildings = {
+			infrastructure = 2
+		}
+		add_core_of = SOV
+		add_core_of = FER
+		add_claim_by = MAN
+		add_claim_by = CHI
+		add_claim_by = PRC
+		add_claim_by = IRK
+	}
+	provinces={
+		19455 
+	}
+	manpower=8024
+	buildings_max_level_factor=1
+	state_category = pastoral
+	local_supplies=0
+}

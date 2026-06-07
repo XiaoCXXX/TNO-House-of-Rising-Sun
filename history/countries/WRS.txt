@@ -1,0 +1,20 @@
+# 基础定义
+capital = 214 
+
+# 政治体制
+set_politics = {
+    ruling_party = communism
+    last_election = "1936.1.1"
+    election_frequency = 48
+    elections_allowed = no
+}
+
+recruit_character = Portrait_WRRF_Power_Vacuum
+
+set_popularities = {
+    communism = 69
+    neutrality = 31
+}
+
+# 关联部队部署
+set_oob = "WRS_1936"

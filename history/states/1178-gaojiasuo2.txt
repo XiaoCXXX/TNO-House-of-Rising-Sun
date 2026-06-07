@@ -1,0 +1,24 @@
+state={
+	id=1178
+	name="STATE_1178"
+
+	history={
+		owner = SOV
+		buildings = {
+			infrastructure = 1
+		}
+		add_core_of = SOV
+		add_core_of = KAL
+		victory_points = {
+			9442 1
+		}
+	}
+
+	provinces={
+		481 3439 3475 9442 
+	}
+	manpower=69620
+	buildings_max_level_factor=1
+	state_category = rural
+	local_supplies=0
+}

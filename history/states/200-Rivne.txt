@@ -1,0 +1,38 @@
+state = {
+	id = 200
+	name = "STATE_200" # Zaporozhe
+	manpower = 1000000
+	state_category = town
+
+	history = {
+
+		owner = SOV
+		add_core_of = SOV
+		add_core_of = UKR
+
+		victory_points = {
+			11405 9 # Zaporozhe
+		}
+
+		buildings = {
+			infrastructure = 2 #was: 5
+			air_base = 2
+
+			# Dnieprostroi Hydroelectric Station
+			11405 = { dam = 1 }
+			
+		}
+		
+		1939.1.1 = {
+			buildings = {
+				industrial_complex = 1
+			}
+		}
+	}
+
+	provinces = {
+		429 3399 3767 9571 9729 11405 14394 15818 18234 
+	}
+
+	local_supplies = 0.0 
+}

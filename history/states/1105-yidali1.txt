@@ -1,0 +1,28 @@
+state={
+	id=1105
+	name="STATE_1105"
+
+	history={
+		owner = YUG
+		victory_points = { #Split
+			3924 9
+		}
+		buildings = {
+			infrastructure = 1
+			3924 = {
+				naval_base = 3
+			}
+		}
+		add_core_of = YUG
+		#add_claim_by = ITA #added by focus
+		add_core_of = CRO
+	}
+
+	provinces={
+		3924 14660 
+	}
+	manpower=231700
+	buildings_max_level_factor=1
+	state_category = large_town
+	local_supplies=0
+}

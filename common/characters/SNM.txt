@@ -1,0 +1,31 @@
+characters = {
+	SNM_zhuliyanuo_geqi = {
+		name = "朱利亚诺·戈齐" 
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/SNM/SNM.png"
+			}
+		}
+		country_leader = {
+			ideology = anarchism
+			expire = "1962.1.1.1"
+			id = -1
+		}
+		country_leader = {
+			ideology = socialism
+			expire = "1962.1.1.1"
+			id = -1
+		}
+		country_leader = {
+			ideology = anarchist_communism
+			expire = "1962.1.1.1"
+			id = -1
+		}
+		country_leader = {
+			ideology = fascism_ideology
+			expire = "1962.1.1.1"
+			id = -1
+		}
+	}
+}
+	

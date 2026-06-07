@@ -1,0 +1,27 @@
+
+state={
+	id=1232
+	name="STATE_1232"
+	provinces={
+		12690 
+	}
+	manpower=6341
+	buildings_max_level_factor=1.000
+	state_category = pastoral
+
+	history = {
+
+		owner = MON
+		add_core_of = MON
+		add_claim_by = CHI
+		add_claim_by = MAN
+		add_claim_by = PRC
+
+		buildings = {
+			infrastructure = 1
+		}
+
+	}
+
+	local_supplies = 0.0 
+}

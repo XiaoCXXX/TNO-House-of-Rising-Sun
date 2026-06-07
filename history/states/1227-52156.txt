@@ -1,0 +1,23 @@
+
+state={
+	id=1227
+	name="STATE_1227"
+	manpower = 8226
+	state_category = rural
+
+	provinces={
+		14750 
+	}
+	history={
+		owner = AFG
+		add_core_of = AFG
+		add_core_of = TAJ
+		add_claim_by = CHI
+		add_claim_by = SIK
+		add_claim_by = PRC
+	}
+	
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}
+

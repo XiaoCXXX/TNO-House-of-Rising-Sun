@@ -1,0 +1,27 @@
+
+state = {
+	id = 397
+	name = "STATE_397"
+	manpower = 57203
+	state_category = pastoral
+
+	history = {
+		victory_points = {
+			1295 1 
+		}
+		owner = SOV
+		buildings = {
+			infrastructure = 1
+
+		}
+		add_core_of = SOV
+		add_core_of = KOM
+		add_core_of = WRS
+	}
+
+	provinces = {
+		1295 3155 4298 7712 7898 9225 10579 12558 
+	}
+
+	local_supplies = 0.0 
+}

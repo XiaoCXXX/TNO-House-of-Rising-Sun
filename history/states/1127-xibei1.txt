@@ -1,0 +1,50 @@
+state={
+	id=1127
+	name="STATE_1127"
+
+	history = {
+
+		owner = XSM
+		add_core_of = XSM
+		add_core_of = CHI
+		add_core_of = PRC
+
+		buildings = {
+			infrastructure = 1
+		}
+
+
+		1936.1.1 = {
+			IF = {
+				limit = {
+					has_dlc = "No Compromise, No Surrender" 
+				}
+				GSM = { transfer_state = PREV }
+				add_core_of = GSM
+				remove_core_of = XSM
+			}
+		}
+
+		1938.10.25 = {
+			if = {
+				limit = {
+					NOT = {
+						has_dlc = "Waking the Tiger" 
+					}
+				}
+				CHI = {
+					transfer_state = PREV
+				}
+			}
+		}
+
+	}
+
+	provinces={
+		1630 5057 16783 16844 16857 
+	}
+	manpower=685421
+	buildings_max_level_factor=1
+	state_category = pastoral
+	local_supplies=0
+}

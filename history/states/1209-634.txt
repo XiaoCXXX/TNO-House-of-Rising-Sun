@@ -1,0 +1,25 @@
+
+state = {
+	id = 1209
+	name = "STATE_1209"
+	manpower = 170831
+	
+	state_category = pastoral
+
+	history = {
+		owner = SOV
+		buildings = {
+			infrastructure = 1
+
+		}
+		add_core_of = SOV
+		add_claim_by = WRS
+	}
+
+	provinces = {
+		123 189 390 1336 1365 3127 4326 6025 7346 9283 11111 11352 
+	}
+
+	local_supplies = 0.0 
+}
+

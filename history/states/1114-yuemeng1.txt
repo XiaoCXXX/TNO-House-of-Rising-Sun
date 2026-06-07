@@ -1,0 +1,27 @@
+state={
+	id=1114
+	name="STATE_1114"
+
+	history = {
+
+		owner = FRA
+		add_core_of = VIN
+		
+		victory_points = {
+			1073 1 
+		}
+
+		victory_points = {
+			12065 3
+		}
+
+	}
+
+	provinces={
+		1073 7518 12008 12065 19064 
+	}
+	manpower=500000
+	buildings_max_level_factor=1
+	state_category = town
+	local_supplies=0
+}

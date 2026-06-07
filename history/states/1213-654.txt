@@ -1,0 +1,24 @@
+
+state = {
+	id = 1213
+	name = "STATE_1213"
+	manpower = 41030
+	
+	state_category = rural
+
+	history = {
+		owner = SOV
+		buildings = {
+			infrastructure = 2
+		}
+		add_core_of = SOV
+		add_claim_by = WRS
+	}
+
+	provinces = {
+		 292 355 3214 3328 9401 9514 11339 11496 
+	}
+
+	local_supplies = 0.0 
+}
+

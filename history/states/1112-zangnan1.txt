@@ -1,0 +1,24 @@
+state={
+	id=1112
+	name="STATE_1112"
+
+	history = {
+       		 owner = BHU
+        		 add_core_of = BHU
+		add_claim_by = TIB
+        
+       	buildings = {
+            		infrastructure = 1
+
+        	}
+
+}
+
+	provinces={
+		16134 
+	}
+	manpower=1242
+	buildings_max_level_factor=1
+	state_category = town
+	local_supplies=0
+}

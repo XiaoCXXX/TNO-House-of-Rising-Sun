@@ -1,0 +1,22 @@
+state={
+	id=1137
+	name="STATE_1137"
+
+	history={
+		owner = VAC
+
+		buildings = {
+			infrastructure = 1
+		}
+		add_core_of = VAC
+
+	}
+
+	provinces={
+		14478 
+	}
+	manpower=200
+	buildings_max_level_factor=1
+	state_category = city
+	local_supplies=0
+}

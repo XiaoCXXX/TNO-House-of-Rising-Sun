@@ -1,0 +1,48 @@
+state={
+	id=741
+	name="STATE_741"
+	history = {
+		add_core_of = CAM
+		owner = FRA
+
+		victory_points = {
+			7376 15
+		}
+
+		victory_points = {
+			19145 3 
+		}
+
+		victory_points = {
+			1324 2 
+		}
+
+		victory_points = {
+			12191 2 
+		}
+
+		victory_points = {
+			19102 1 
+		}
+
+		victory_points = {
+			7432 1 
+		}
+
+		buildings = {
+			infrastructure = 1
+			7432 = {
+				naval_base = 1
+			}
+
+		}
+	}
+	provinces={
+		1324 1620 4330 4359 4639 5236 7319 7376 7404 7432 7645 10204 10289 10317 12150 12191 12260 12475 19016 19028 19034 19035 19099 19102 19113 19119 19131 19145 
+	}
+	manpower=5245000
+	buildings_max_level_factor=1.000
+	state_category=town
+
+	local_supplies=0.0 
+}

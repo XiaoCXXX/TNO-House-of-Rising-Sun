@@ -1,0 +1,44 @@
+
+state={
+	id=1233
+	name="STATE_1233"
+	provinces={
+		4114 11816 11933 
+	}
+	manpower=83412
+	buildings_max_level_factor=1.000
+	state_category = pastoral
+
+	history = {
+
+		1936.1.1 = {
+			IF = {
+				limit = {
+					has_dlc = "No Compromise, No Surrender"
+				}
+				transfer_state_to = HBC
+				add_core_of = HBC
+			}
+
+		}
+		victory_points = {
+			11933 4
+		}
+
+		owner = CHI
+		add_core_of = CHI
+		add_core_of = PRC
+
+		buildings = {
+			infrastructure = 2
+		}
+
+		1938.10.25 = {
+			owner = CHI
+			controller = JAP
+		}
+
+	}
+
+	local_supplies = 0.0 
+}

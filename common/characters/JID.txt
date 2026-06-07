@@ -1,0 +1,31 @@
+characters = {
+	JID_yin_ruigeng = {
+		name = "殷汝耕" 
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/JID/fascism_JID.png"
+			}
+		}
+		country_leader = {
+			ideology = anarchism
+			expire = "1945.1.1.1"
+			id = -1
+		}
+		country_leader = {
+			ideology = socialism
+			expire = "1945.1.1.1"
+			id = -1
+		}
+		country_leader = {
+			ideology = anarchist_communism
+			expire = "1945.1.1.1"
+			id = -1
+		}
+		country_leader = {
+			ideology = fascism_ideology
+			expire = "1945.1.1.1"
+			id = -1
+		}
+	}
+}
+	

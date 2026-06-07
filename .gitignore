@@ -1,0 +1,15 @@
+# HoI4 mod ignore
+*.zip
+*.rar
+*.7z
+*.cache
+Thumbs.db
+*.pdn
+*.psd
+*.tmp
+*.bak
+*_copy.txt
+*.csv.cache
+*.csv.fixed.csv
+*_backup*
+*.log

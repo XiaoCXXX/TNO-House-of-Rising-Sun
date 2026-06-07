@@ -1,0 +1,22 @@
+state={
+	id=1136
+	name="STATE_1136"
+
+	history={
+		owner = SNM
+
+		buildings = {
+			infrastructure = 1
+		}
+		add_core_of = SNM
+
+	}
+
+	provinces={
+		14475 
+	}
+	manpower=1500
+	buildings_max_level_factor=1
+	state_category = city
+	local_supplies=0
+}

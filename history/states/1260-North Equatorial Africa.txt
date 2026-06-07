@@ -1,0 +1,26 @@
+state={
+	id=1260
+	name="STATE_1260"
+    manpower=235896
+	
+	state_category = pastoral
+	resources={
+		rubber=1 
+	}
+	history={
+		owner = FRA
+		add_core_of = CAR
+	
+		buildings = {
+			infrastructure = 1
+		}
+
+	}
+
+	provinces={
+		1974 5084 7919 8078 14037 14054 14055 14056 14057 14069 14092 
+	}
+	
+	buildings_max_level_factor=1
+	local_supplies=0
+}

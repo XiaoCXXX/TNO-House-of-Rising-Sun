@@ -1,0 +1,65 @@
+state={
+	id=1115
+	name="STATE_1115"
+
+	resources = {
+		chromium = 2 # was: 8, then 6
+		tungsten = 20 # was: 38, then 27
+		coal = 3
+	}
+
+	history = {
+
+		owner = FRA
+		add_core_of = VIN
+		
+		victory_points = {
+			4075 22 # Hanoi 
+		}
+
+		victory_points = {
+			12048 4 
+		}
+
+		victory_points = {
+			1185 2 
+		}
+
+		victory_points = {
+			11936 1 
+		}
+
+		victory_points = {
+			4397 5 
+		}
+
+		victory_points = {
+			19013 1 
+		}
+
+		victory_points = {
+			19021 1 
+		}
+
+		buildings = {
+
+			infrastructure = 2
+			industrial_complex = 1
+			air_base = 1
+
+			1185 = {
+				naval_base = 1
+			}
+
+		}
+
+	}
+
+	provinces={
+		1157 1185 4075 4119 4397 7015 10016 11936 12048 19013 19018 19021 19048 19065 19074 19083 19084 19085 19086 19087 19161 
+	}
+	manpower=5528000 # was 8852800
+	buildings_max_level_factor=1
+	state_category = town
+	local_supplies=0
+}

@@ -1,0 +1,20 @@
+state={
+	id=1146
+	name="STATE_1146"
+
+	history={
+		owner = SOV
+		add_core_of = SOV
+		add_core_of = WRS
+
+	}
+
+	provinces={
+		16816 16817 16818 
+	}
+
+	manpower=35
+	buildings_max_level_factor=1
+	state_category = wasteland
+	local_supplies=0
+}

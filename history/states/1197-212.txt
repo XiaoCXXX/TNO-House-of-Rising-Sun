@@ -1,0 +1,23 @@
+
+state={
+	id=1197
+	name="STATE_1197"
+
+	history={
+		owner = SOV
+
+		buildings = {
+			infrastructure = 2
+		}
+		add_core_of = SOV
+		add_claim_by = WRS
+	}
+
+	provinces={
+		73 112 175 3004 3017 3066 3103 3167 9050 9172 9180 9065 6089 6191 11158 15788 
+	}
+	manpower=23251
+	buildings_max_level_factor=1
+	state_category = rural
+	local_supplies=0
+}

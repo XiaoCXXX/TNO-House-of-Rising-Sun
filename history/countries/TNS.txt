@@ -1,0 +1,19 @@
+# 基础定义
+capital = 192 
+
+# 政治体制
+set_politics = {
+    ruling_party = fascism
+    last_election = "1936.1.1"
+    election_frequency = 48
+    elections_allowed = no
+}
+
+# 流行度（直接在这里定义，不要写在上面的大括号里）
+set_popularities = {
+    fascism = 100
+    neutrality = 0
+}
+
+# 关联部队部署
+set_oob = "MVF_1936"

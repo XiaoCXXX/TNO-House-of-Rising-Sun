@@ -1,0 +1,22 @@
+state={
+	id=1157
+	name="STATE_1157"
+
+history = {
+		owner = ENG
+		add_core_of = ENG
+
+		buildings = {
+			infrastructure = 1
+			# industrial_complex = 1 
+		}
+	}
+	provinces={
+		14611 
+	}
+
+	manpower=1850
+	buildings_max_level_factor=1
+	state_category = town
+	local_supplies=0
+}

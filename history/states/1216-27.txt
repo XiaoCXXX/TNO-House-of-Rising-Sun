@@ -1,0 +1,21 @@
+state={
+	id=1216
+	name="STATE_1216"
+	manpower = 1012
+	
+	state_category = wasteland
+
+	history={
+		owner = SPR
+		add_core_of = WES
+		buildings = {
+			infrastructure = 1
+		}
+	}
+	
+	provinces={
+		4920 8111 14384 15354 
+	}
+
+	local_supplies=0.0 
+}

@@ -1,0 +1,25 @@
+# 基础定义
+capital = 64
+
+# 政治体制
+set_politics = {
+    ruling_party = national_socialism
+    last_election = "1936.1.1"
+    election_frequency = 48
+    elections_allowed = no
+}
+
+# 流行度
+set_popularities = {
+	national_socialism = 32
+	ultra_nationalism = 0
+	fascism = 10
+	despotism = 8
+	neutrality = 10
+	conservatism = 10
+	democratic = 0
+	liberalism = 5
+	progressivism = 18
+	socialism = 2
+	communism = 5
+}

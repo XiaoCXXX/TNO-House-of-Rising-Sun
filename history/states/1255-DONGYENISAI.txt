@@ -1,0 +1,23 @@
+
+state = {
+	id = 1255
+	name = "STATE_1255"
+	manpower = 40610
+	state_category = wasteland
+
+	history = {
+		owner = SOV
+		buildings = {
+			infrastructure = 1
+		}
+		add_core_of = SOV
+		add_core_of = EVE
+		add_core_of = TOM
+	}
+
+	provinces = {
+		1741 4703 4743 5109 7805 10631 14362 19992 
+	}
+
+	local_supplies = 0.0 
+}

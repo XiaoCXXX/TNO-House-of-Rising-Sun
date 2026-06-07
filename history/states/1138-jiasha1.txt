@@ -1,0 +1,23 @@
+state={
+	id=1138
+	name="STATE_1138"
+
+	history = {
+
+		owner = PAL
+		add_core_of = PAL
+		add_core_of = ISR
+
+		victory_points = {
+			14453 2 
+		}
+	}
+
+	provinces={
+		14453 
+	}
+	manpower=33142
+	buildings_max_level_factor=1
+	state_category = rural
+	local_supplies=0
+}

@@ -1,0 +1,21 @@
+
+state={
+	id=1244
+	name="STATE_1244"
+	history = {
+		add_core_of = CAM
+		owner = FRA
+
+		buildings = {
+			infrastructure = 1
+		}
+	}
+	provinces={
+		1577 4596 10453 12167 19014 
+	}
+	manpower=75000
+	buildings_max_level_factor=1.000
+	state_category=town
+
+	local_supplies=0.0 
+}

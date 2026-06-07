@@ -1,0 +1,1168 @@
+﻿add_namespace = USSR
+
+
+# ========== 事件1：东方和平条约 ==========
+country_event = {
+    id = USSR.1
+    title = USSR.1.t
+    desc = USSR.1.d
+    picture = GFX_report_event_soviet_tanks_snow
+    
+    trigger = {
+        original_tag = SOV
+        has_war_with = GER
+        surrender_progress > 0.70
+        has_civil_war = no
+        
+        GER = {
+            has_government = fascism
+        }
+        NOT = {
+            controls_state = 219
+            controls_state = 217
+            controls_state = 195
+        }
+    }
+    
+    mean_time_to_happen = { days = 4 }
+    fire_only_once = yes
+    
+    option = {
+        name = USSR.1.a
+        ai_chance = {
+            base = 100
+        }
+        
+        GER = {
+            # ========== 割让给德国的领土（基础） ==========
+            transfer_state = 97
+            transfer_state = 137
+            transfer_state = 196
+            transfer_state = 1101
+            transfer_state = 1172
+            
+            # ========== GEN ==========
+            if = {
+                limit = { GEN = { exists = yes } }
+                GEN = {
+                    transfer_state = 89
+                    transfer_state = 91
+                    make_puppet = GER
+                }
+            }
+            else = {
+                transfer_state = 89
+                transfer_state = 91
+            }
+            
+            # ========== RKO ==========
+            if = {
+                limit = { RKO = { exists = yes } }
+                RKO = {
+                    transfer_state = 11
+                    transfer_state = 12
+                    transfer_state = 13
+                    transfer_state = 95
+                    transfer_state = 96
+                    transfer_state = 189
+                    transfer_state = 190
+                    transfer_state = 191
+                    transfer_state = 204
+                    transfer_state = 206
+                    transfer_state = 207
+                    transfer_state = 208
+                    transfer_state = 209
+                    transfer_state = 210
+                    transfer_state = 241
+                    transfer_state = 243
+                    transfer_state = 784
+                    transfer_state = 808
+                    transfer_state = 809
+                    transfer_state = 810
+                    transfer_state = 811
+                    transfer_state = 812
+                    transfer_state = 813
+                    transfer_state = 814
+                    transfer_state = 815
+                    transfer_state = 1187
+                    transfer_state = 1188
+                    transfer_state = 1189
+                    transfer_state = 1190
+                    transfer_state = 1191
+                    make_puppet = GER
+                }
+            }
+            else = {
+                transfer_state = 11
+                transfer_state = 12
+                transfer_state = 13
+                transfer_state = 95
+                transfer_state = 96
+                transfer_state = 189
+                transfer_state = 190
+                transfer_state = 191
+                transfer_state = 204
+                transfer_state = 206
+                transfer_state = 207
+                transfer_state = 208
+                transfer_state = 209
+                transfer_state = 210
+                transfer_state = 241
+                transfer_state = 243
+                transfer_state = 784
+                transfer_state = 808
+                transfer_state = 809
+                transfer_state = 810
+                transfer_state = 811
+                transfer_state = 812
+                transfer_state = 813
+                transfer_state = 814
+                transfer_state = 815
+                transfer_state = 1187
+                transfer_state = 1188
+                transfer_state = 1189
+                transfer_state = 1190
+                transfer_state = 1191
+            }
+            
+            # ========== RKU ==========
+            if = {
+                limit = { RKU = { exists = yes } }
+                RKU = {
+                    transfer_state = 93
+                    transfer_state = 94
+                    transfer_state = 193
+                    transfer_state = 194
+                    transfer_state = 197
+                    transfer_state = 198
+                    transfer_state = 199
+                    transfer_state = 200
+                    transfer_state = 201
+                    transfer_state = 202
+                    transfer_state = 203
+                    transfer_state = 221
+                    transfer_state = 225
+                    transfer_state = 226
+                    transfer_state = 227
+                    transfer_state = 228
+                    transfer_state = 240
+                    transfer_state = 259
+                    transfer_state = 1167
+                    transfer_state = 1168
+                    transfer_state = 1170
+                    transfer_state = 1171
+                    make_puppet = GER
+                }
+            }
+            else = {
+                transfer_state = 93
+                transfer_state = 94
+                transfer_state = 193
+                transfer_state = 194
+                transfer_state = 197
+                transfer_state = 198
+                transfer_state = 199
+                transfer_state = 200
+                transfer_state = 201
+                transfer_state = 202
+                transfer_state = 203
+                transfer_state = 221
+                transfer_state = 225
+                transfer_state = 226
+                transfer_state = 227
+                transfer_state = 228
+                transfer_state = 240
+                transfer_state = 259
+                transfer_state = 1167
+                transfer_state = 1168
+                transfer_state = 1170
+                transfer_state = 1171
+            }
+            
+            # ========== RKK ==========
+            if = {
+                limit = { RKK = { exists = yes } }
+                RKK = {
+                    transfer_state = 218
+                    transfer_state = 229
+                    transfer_state = 231
+                    transfer_state = 232
+                    transfer_state = 233
+                    transfer_state = 234
+                    transfer_state = 235
+                    transfer_state = 236
+                    transfer_state = 237
+                    transfer_state = 238
+                    transfer_state = 821
+                    transfer_state = 826
+                    transfer_state = 827
+                    transfer_state = 828
+                    make_puppet = GER
+                }
+            }
+            else = {
+                transfer_state = 218
+                transfer_state = 229
+                transfer_state = 231
+                transfer_state = 232
+                transfer_state = 233
+                transfer_state = 234
+                transfer_state = 235
+                transfer_state = 236
+                transfer_state = 237
+                transfer_state = 238
+                transfer_state = 821
+                transfer_state = 826
+                transfer_state = 827
+                transfer_state = 828
+            }
+            
+            # ========== RKM ==========
+            if = {
+                limit = { RKM = { exists = yes } }
+                RKM = {
+                    transfer_state = 195
+                    transfer_state = 205
+                    transfer_state = 214
+                    transfer_state = 217
+                    transfer_state = 219
+                    transfer_state = 220
+                    transfer_state = 222
+                    transfer_state = 223
+                    transfer_state = 224
+                    transfer_state = 239
+                    transfer_state = 242
+                    transfer_state = 244
+                    transfer_state = 245
+                    transfer_state = 246
+                    transfer_state = 247
+                    transfer_state = 248
+                    transfer_state = 250
+                    transfer_state = 252
+                    transfer_state = 253
+                    transfer_state = 254
+                    transfer_state = 255
+                    transfer_state = 256
+                    transfer_state = 257
+                    transfer_state = 258
+                    transfer_state = 260
+                    transfer_state = 263
+                    transfer_state = 264
+                    transfer_state = 265
+                    transfer_state = 351
+                    transfer_state = 401
+                    transfer_state = 829
+                    transfer_state = 879
+                    transfer_state = 1169
+                    transfer_state = 1177
+                    transfer_state = 1178
+                    transfer_state = 1179
+                    transfer_state = 1195
+                    transfer_state = 1196
+                    transfer_state = 1198
+                    transfer_state = 1199
+                    transfer_state = 1236
+                    make_puppet = GER
+                }
+            }
+            else = {
+                transfer_state = 195
+                transfer_state = 205
+                transfer_state = 214
+                transfer_state = 217
+                transfer_state = 219
+                transfer_state = 220
+                transfer_state = 222
+                transfer_state = 223
+                transfer_state = 224
+                transfer_state = 239
+                transfer_state = 242
+                transfer_state = 244
+                transfer_state = 245
+                transfer_state = 246
+                transfer_state = 247
+                transfer_state = 248
+                transfer_state = 250
+                transfer_state = 252
+                transfer_state = 253
+                transfer_state = 254
+                transfer_state = 255
+                transfer_state = 256
+                transfer_state = 257
+                transfer_state = 258
+                transfer_state = 260
+                transfer_state = 263
+                transfer_state = 264
+                transfer_state = 265
+                transfer_state = 351
+                transfer_state = 401
+                transfer_state = 829
+                transfer_state = 879
+                transfer_state = 1169
+                transfer_state = 1177
+                transfer_state = 1178
+                transfer_state = 1179
+                transfer_state = 1195
+                transfer_state = 1196
+                transfer_state = 1198
+                transfer_state = 1199
+                transfer_state = 1236
+            }
+            
+            # ========== 芬兰 ==========
+            if = {
+                limit = { FIN = { has_war_with = SOV } }
+                FIN = {
+                    transfer_state = 146
+                    transfer_state = 147
+                    transfer_state = 213
+                    transfer_state = 215
+                    transfer_state = 216
+                    transfer_state = 722
+                    transfer_state = 1164
+                    transfer_state = 1165
+                    transfer_state = 1166
+                }
+            }
+            else = {
+                transfer_state = 146
+                transfer_state = 147
+                transfer_state = 213
+                transfer_state = 215
+                transfer_state = 216
+                transfer_state = 722
+                transfer_state = 1164
+                transfer_state = 1165
+                transfer_state = 1166
+            }
+
+              # ========== 罗马尼亚 ==========
+            if = {
+                limit = { ROM = { has_war_with = SOV } }
+                ROM = {
+                    transfer_state = 766
+                    transfer_state = 78
+                    transfer_state = 80
+
+                }
+            }
+            else = {
+                    transfer_state = 766
+                    transfer_state = 78
+                    transfer_state = 80
+
+            }
+              # ========== 德涅斯特 ==========
+            if = {
+                limit = { ROM = { has_war_with = SOV } }
+                TNS = {
+                    transfer_state = 192
+                    transfer_state = 834
+                    transfer_state = 1102
+                }
+            }
+            else = {
+                    transfer_state = 192
+                    transfer_state = 834
+                    transfer_state = 1102
+            }
+              # ========== 土耳其 ==========
+            if = {
+                limit = { TUR = { has_war_with = SOV } }
+                TUR = {
+                    transfer_state = 1143
+                    transfer_state = 1144
+                }
+            }
+            else = {
+                    transfer_state = 1143
+                    transfer_state = 1144
+            }
+              # ========== 亚美尼亚 ==========
+            if = {
+                limit = { TUR = { has_war_with = SOV } }
+                ARM = {
+                    transfer_state = 230
+                }
+            }
+            else = {
+                    transfer_state = 230
+            }
+
+
+            # ========== 白和平 ==========
+            white_peace = SOV
+            
+            every_country = {
+                limit = { has_war_with = SOV }
+                white_peace = SOV
+            }
+            
+            # ========== 稳定度等效果 ==========
+            add_stability = 0.05
+            add_war_support = 0.05
+        }
+        
+        # ========== 触发新闻事件2 ==========
+        news_event = { id = USSR.2 days = 1 }
+        
+        # ========== 30天后触发 USSR.3（由 ZZZ 触发）==========
+        if = {
+            limit = { ZZZ = { exists = yes } }
+            ZZZ = {
+                country_event = { id = USSR.3 days = 30 }
+            }
+        ROM = {
+            make_puppet = TNS
+            set_autonomy = {
+                target = TNS
+                autonomy_state = autonomy_integrated_puppet
+            }
+          }
+
+
+        TUR = {
+            make_puppet = ARM
+            set_autonomy = {
+                target = ARM
+                autonomy_state = autonomy_integrated_puppet
+            }
+          }
+
+
+        }
+    }
+    
+    option = {
+        name = USSR.1.b
+        ai_chance = {
+            base = -10
+        }
+        effect = {
+            add_stability = -0.10
+            add_war_support = 0.05
+            add_political_power = -50
+        }
+    }
+}
+
+# ========== 新闻事件2 ==========
+news_event = {
+    id = USSR.2
+    title = USSR.2.t
+    desc = USSR.2.d
+    picture = GFX_news_event_generic_sign_treaty1
+    major = yes
+    is_triggered_only = yes
+    
+    option = {
+        name = USSR.2.a
+        trigger = {
+            NOT = { tag = GER }
+            NOT = { tag = SOV }
+        }
+    }
+    option = {
+        name = USSR.2.b
+        trigger = { tag = GER }
+    }
+    option = {
+        name = USSR.2.c
+        trigger = { tag = SOV }
+    }
+}
+
+
+# ========== 事件3：苏联领土分配（由 sov 触发）==========
+country_event = {
+    id = USSR.3
+    title = USSR.3.t
+    desc = USSR.3.d
+    picture = GFX_report_event_generic_peace
+    is_triggered_only = yes
+    fire_only_once = yes
+    
+    option = {
+        name = USSR.3.a
+
+
+        # ========== 触发新闻事件4 ==========
+        news_event = { id = USSR.4 days = 1 }
+
+        
+        # ========== WRS ==========
+        WRS = {
+            transfer_state = 249
+            transfer_state = 251
+            transfer_state = 262
+            transfer_state = 397
+            transfer_state = 398
+            transfer_state = 399
+            transfer_state = 400
+            transfer_state = 582
+            transfer_state = 651
+            transfer_state = 652
+            transfer_state = 825
+            transfer_state = 833
+            transfer_state = 880
+            transfer_state = 1146
+            transfer_state = 1147
+            transfer_state = 1194
+            transfer_state = 1197
+            transfer_state = 1205
+            transfer_state = 1206
+            transfer_state = 1208
+            transfer_state = 1209
+            transfer_state = 1211
+            transfer_state = 1213
+            transfer_state = 1217
+            transfer_state = 1218
+            transfer_state = 1219
+            transfer_state = 1220
+            transfer_state = 1230
+            transfer_state = 1231
+        }
+        
+        # ========== TYM ==========
+        TYM = {
+            transfer_state = 403
+            transfer_state = 571
+            transfer_state = 572
+            transfer_state = 573
+            transfer_state = 579
+            transfer_state = 580
+            transfer_state = 581
+            transfer_state = 653
+            transfer_state = 1210
+        }
+        
+        # ========== TOM ==========
+        TOM = {
+            transfer_state = 40
+            transfer_state = 329
+            transfer_state = 516
+            transfer_state = 568
+            transfer_state = 569
+            transfer_state = 570
+            transfer_state = 576
+            transfer_state = 577
+            transfer_state = 578
+            transfer_state = 654
+            transfer_state = 824
+            transfer_state = 878
+            transfer_state = 1249
+            transfer_state = 1255
+        }
+        
+        # ========== IRK ==========
+        IRK = {
+            transfer_state = 408
+            transfer_state = 409
+            transfer_state = 560
+            transfer_state = 561
+            transfer_state = 562
+            transfer_state = 563
+            transfer_state = 564
+            transfer_state = 565
+            transfer_state = 566
+            transfer_state = 567
+            transfer_state = 574
+            transfer_state = 575
+            transfer_state = 637
+            transfer_state = 644
+            transfer_state = 655
+            transfer_state = 657
+            transfer_state = 822
+            transfer_state = 874
+            transfer_state = 875
+            transfer_state = 876
+            transfer_state = 877
+            transfer_state = 1113
+            transfer_state = 1132
+            transfer_state = 1229
+            transfer_state = 1248
+            transfer_state = 1250
+            transfer_state = 1251
+            transfer_state = 1252
+            transfer_state = 1253
+            transfer_state = 1254
+            transfer_state = 1722
+        }
+        
+        # ========== KAZ ==========
+        KAZ = {
+            transfer_state = 402
+            transfer_state = 404
+            transfer_state = 406
+            transfer_state = 407
+            transfer_state = 583
+            transfer_state = 586
+            transfer_state = 587
+            transfer_state = 588
+            transfer_state = 589
+            transfer_state = 590
+            transfer_state = 881
+            transfer_state = 882
+        }
+        
+        # ========== KKP ==========
+        KKP = {
+            transfer_state = 823
+            transfer_state = 831
+        }
+        
+        # ========== KHI ==========
+        KHI = {
+            transfer_state = 832
+            transfer_state = 1240
+        }
+        
+        # ========== TMS ==========
+        TMS = {
+            transfer_state = 584
+        }
+        
+        # ========== BUK ==========
+        BUK = {
+            transfer_state = 742
+            transfer_state = 830
+            transfer_state = 1243
+        }
+        
+        # ========== KYR ==========
+        KYR = {
+            transfer_state = 732
+        }
+        
+        # ========== UZB ==========
+        UZB = {
+            transfer_state = 405
+            transfer_state = 585
+            transfer_state = 1238
+            transfer_state = 1239
+            transfer_state = 1241
+            transfer_state = 1242
+            transfer_state = 1245
+            transfer_state = 1256
+        }
+        
+        # ========== AFG ==========
+        AFG = {
+            transfer_state = 1111
+        }
+        
+        # ========== PER ==========
+        PER = {
+            transfer_state = 1152
+            transfer_state = 1153
+
+        }
+        
+
+        # ========== 30天后触发 USSR.5（由 JAP 触发）==========
+        JAP = {
+            country_event = { id = USSR.5 days = 30 }
+
+        }
+
+    }
+}
+
+
+# ========== 新闻事件4 ==========
+news_event = {
+    id = USSR.4
+    title = USSR.4.t
+    desc = USSR.4.d
+    picture = GFX_news_event_generic_ruins
+    major = yes
+    is_triggered_only = yes
+    
+    option = {
+        name = USSR.4.a
+        trigger = {
+            NOT = { tag = GER }
+            NOT = { tag = SOV }
+        }
+    }
+    option = {
+        name = USSR.4.b
+        trigger = { tag = GER }
+    }
+    option = {
+        name = USSR.4.c
+        trigger = { tag = SOV }
+    }
+}
+
+
+# ========== 事件5：日本占领外满洲 ==========
+country_event = {
+    id = USSR.5
+    title = USSR.5.t
+    desc = USSR.5.d
+    picture = GFX_report_event_japanese_transport_soldiers
+    is_triggered_only = yes
+    fire_only_once = yes
+    
+    option = {
+        name = USSR.5.a
+        
+        # ========== MAN 获得领土 ==========
+        MAN = {
+            transfer_state = 408
+            transfer_state = 409
+            transfer_state = 560
+            transfer_state = 657
+            transfer_state = 1113
+            transfer_state = 1229
+            transfer_state = 1232
+        }
+        
+        # ========== JAP 获得领土并宣战 ==========
+        JAP = {
+            transfer_state = 655
+            transfer_state = 1132
+            declare_war_on = {
+                target = MON
+                type = annex_everything
+            }
+        }
+        
+        # ========== MEN 获得核心 ==========
+        MEN = {
+            add_state_core = 329
+            add_state_core = 330
+            add_state_core = 817
+            add_state_core = 818
+            add_state_core = 819
+            add_state_core = 820
+            add_state_core = 1221
+            add_state_core = 1222
+            add_state_core = 1332
+        }
+        
+        # ========== SIK 获得领土 ==========
+        SIK = {
+            transfer_state = 1207
+        }
+        
+        # ========== 触发新闻事件6 ==========
+        news_event = { id = USSR.6 days = 1 }
+    }
+}
+
+# ========== 新闻事件6 ==========
+news_event = {
+    id = USSR.6
+    title = USSR.6.t
+    desc = USSR.6.d
+    picture = GFX_news_event_041
+    major = yes
+    is_triggered_only = yes
+    
+    option = {
+        name = USSR.6.a
+        trigger = {
+            NOT = { tag = GER }
+            NOT = { tag = SOV }
+            NOT = { tag = JAP }
+        }
+    }
+    option = {
+        name = USSR.6.b
+        trigger = { tag = GER }
+    }
+    option = {
+        name = USSR.6.c
+        trigger = { tag = SOV }
+    }
+    option = {
+        name = USSR.6.d
+        trigger = { tag = JAP }
+    }
+}
+
+
+# ========== 事件7：高加索局势（德国触发）==========
+country_event = {
+    id = USSR.7
+    title = USSR.7.t
+    desc = USSR.7.d
+    picture = GFX_report_event_generic_war
+    fire_only_once = yes
+    
+    trigger = {
+        tag = GER
+        SOV = { has_war_with = GER }
+        
+        # 【新增】土耳其不是傀儡/附庸，且不是共产主义政体
+        TUR = {
+            is_subject = no 
+            NOT = { has_government = communism }
+        }
+        
+        234 = {
+            OR = {
+                controller = { tag = GER }
+                controller = { is_in_faction_with = GER }
+            }
+        }
+        218 = {
+            OR = {
+                controller = { tag = GER }
+                controller = { is_in_faction_with = GER }
+            }
+        }
+        233 = {
+            OR = {
+                controller = { tag = GER }
+                controller = { is_in_faction_with = GER }
+            }
+        }
+    }
+    
+    mean_time_to_happen = { days = 10 }
+    
+    option = {
+        name = USSR.7.a
+        ai_chance = { base = 80 }
+        # 【修改】移除了 effect = {}，直接写效果
+        TUR = {
+            country_event = { id = USSR.8 }
+        }
+    }
+    
+    option = {
+        name = USSR.7.b
+        ai_chance = { base = 20 }
+        # 【修改】移除了 effect = {}
+    }
+}
+
+
+# ========== 事件8：土耳其介入高加索 ==========
+country_event = {
+    id = USSR.8
+    title = USSR.8.t
+    desc = USSR.8.d
+    picture = GFX_report_event_generic_war
+    is_triggered_only = yes
+    fire_only_once = yes
+    
+    option = {
+        name = USSR.8.a
+        ai_chance = { base = 70 }
+        
+        # 【修复1】强制解除叙利亚的傀儡状态（无视它当前是法国、维希还是英国的傀儡）
+        SYR = {
+            if = {
+                limit = { is_subject = yes }
+                set_autonomy = {
+                    target = SYR
+                    autonomy_state = autonomy_free
+                }
+            }
+        }
+
+        TUR = {
+            # 宣战
+            declare_war_on = { target = SOV type = annex_everything }
+            declare_war_on = { target = IRQ type = annex_everything }
+            
+            # 获得领土
+            transfer_state = 799
+            transfer_state = 1141
+            transfer_state = 1142
+            
+            # 获得宣称
+            add_state_claim = 183
+            add_state_claim = 164
+            add_state_claim = 187
+            add_state_claim = 1214
+            add_state_claim = 676
+            add_state_claim = 1159
+            
+            # 【修复2】将叙利亚收为傀儡（使用 puppet 命令更稳定）
+            puppet = SYR
+        }
+        
+        # 德国把土耳其拉入阵营
+        GER = { 
+            add_to_faction = TUR 
+        }
+        # 英国把伊拉克拉入阵营
+        ENG = { 
+            add_to_faction = IRQ 
+        }
+
+    }
+    
+    option = {
+        name = USSR.8.b
+        ai_chance = { base = 30 }
+    }
+}
+
+
+# ========== 事件9：爱尔兰局势 ==========
+country_event = {
+    id = USSR.9
+    title = USSR.9.t
+    desc = USSR.9.d
+    picture = GFX_report_event_generic_war
+    fire_only_once = yes
+    
+    trigger = {
+        tag = GER
+        ENG = { has_war_with = GER }
+        IRE = {
+            is_subject = no 
+              }
+        126 = {
+            OR = {
+                controller = { tag = GER }
+                controller = { is_in_faction_with = GER }
+            }
+        }
+    }
+    
+    mean_time_to_happen = { days = 1 }
+    
+    option = {
+        name = USSR.9.a
+        ai_chance = { base = 80 }
+        IRE = {
+            country_event = { id = USSR.10 }
+        }
+    }
+    
+    option = {
+        name = USSR.9.b
+        ai_chance = { base = 20 }
+    }
+}
+
+
+# ========== 事件10：爱尔兰响应 ==========
+country_event = {
+    id = USSR.10
+    title = USSR.10.t
+    desc = USSR.10.d
+    picture = GFX_report_event_generic_war
+    is_triggered_only = yes
+    fire_only_once = yes
+    
+    option = {
+        name = USSR.10.a
+        ai_chance = { base = 100 }
+        
+        # 【修复3】德国主动把爱尔兰拉入阵营（彻底替代错误的 join_faction = GER）
+        GER = { 
+            add_to_faction = IRE 
+        }
+        
+        IRE = {
+            # 对英国宣战
+            declare_war_on = { target = ENG type = annex_everything }
+        }
+    }
+    
+    option = {
+        name = USSR.10.b
+        ai_chance = { base = 0 }
+    }
+}
+
+
+# ========== 事件11：东方战线 ==========
+country_event = {
+    id = USSR.11
+    title = USSR.11.t
+    desc = USSR.11.d
+    picture = GFX_report_event_generic_war
+    fire_only_once = yes
+    
+    trigger = {
+        tag = SOV
+        has_government = communism
+        GER = { 
+            has_war_with = POL
+            has_government = fascism
+        }
+        NOT = { has_war_with = POL }
+    }
+    
+    mean_time_to_happen = { days = 1 }
+    
+    option = {
+        name = USSR.11.a
+        ai_chance = { base = 100 }
+        set_global_flag = poland_invaded_by_sov
+    POL = {
+        add_timed_idea = {
+        idea = POL_no_join_ally
+        days = 180
+        }
+    }
+        SOV = {
+            country_event = { id = USSR.12 days = 4}
+        }
+    }
+}
+
+
+# ========== 事件12：苏联介入波兰 ==========
+country_event = {
+    id = USSR.12
+    title = USSR.12.t
+    desc = USSR.12.d
+    picture = GFX_report_event_generic_war
+    fire_only_once = yes
+    is_triggered_only = yes
+    
+    option = {
+        name = USSR.12.a
+        ai_chance = { base = 100 }
+        declare_war_on = { target = POL type = annex_everything }
+    }
+    
+    option = {
+        name = USSR.12.b
+        ai_chance = { base = 0 }
+    }
+}
+
+
+# ========== 事件13：波兰瓜分 ==========
+country_event = {
+    id = USSR.13
+    title = USSR.13.t
+    desc = USSR.13.d
+    picture = GFX_report_event_generic_peace
+    fire_only_once = yes
+    
+    trigger = {
+        tag = SOV # 【重要修复】必须指定触发国为苏联，否则全世界所有国家都会弹窗！
+        has_global_flag = poland_invaded_by_sov
+        POL = { has_capitulated = yes }
+        SOV = { has_war_with = POL }
+    }
+    
+    mean_time_to_happen = { days = 1 }
+    
+    option = {
+        name = USSR.13.a
+        ai_chance = { base = 100 }
+        
+        SOV = {
+            transfer_state = 89
+            transfer_state = 91
+            transfer_state = 93
+            transfer_state = 94
+            transfer_state = 95
+            transfer_state = 96
+            transfer_state = 97
+            transfer_state = 1101
+        }
+        LIT = {
+            transfer_state = 784
+        }
+        
+        every_country = {
+            limit = {
+                has_war_with = POL
+                OR = {
+                    tag = SOV
+                    is_in_faction_with = SOV
+                }
+            }
+            white_peace = POL
+        }
+    } # 【修复】删除了你原版中这里多出的一个 }
+}
+
+
+# ========== 事件14：南斯拉夫瓜分 ==========
+country_event = {
+    id = USSR.14
+    title = USSR.14.t
+    desc = USSR.14.d
+    picture = GFX_report_event_fascist_gathering
+    fire_only_once = yes
+    
+    trigger = {
+        tag = GER
+        GER = { has_government = fascism has_war_with = YUG }
+        ITA = { has_government = fascism has_war_with = YUG }
+        HUN = { has_government = fascism has_war_with = YUG }
+        YUG = { has_capitulated = yes }
+    }
+    
+    mean_time_to_happen = { days = 1 }
+    
+    option = {
+        name = USSR.14.a
+        ai_chance = { base = 100 }
+        
+        # 克罗地亚获得领土
+        CRO = {
+            transfer_state = 109
+            transfer_state = 103
+            transfer_state = 104
+            transfer_state = 804
+        }
+        
+        # 黑山获得领土
+        MNT = {
+            transfer_state = 105
+            transfer_state = 1103
+        }
+        
+        # 意大利获得领土
+        ITA = {
+            transfer_state = 853
+            transfer_state = 1105
+            transfer_state = 1161
+            transfer_state = 1104
+            transfer_state = 802
+            transfer_state = 970
+        }
+        
+        # 阿尔巴尼亚获得核心
+        970 = { add_core_of = ALB }
+        
+        # 匈牙利获得领土
+        HUN = {
+            transfer_state = 1160
+            transfer_state = 45
+        }
+        
+        # 保加利亚获得领土
+        BUL = {
+            transfer_state = 106
+            transfer_state = 803
+        }
+        
+        # 塞尔维亚获得领土
+        SER = {
+            transfer_state = 108
+            transfer_state = 107
+            transfer_state = 764
+        }
+        
+        # 德国获得领土
+        GER = {
+            transfer_state = 102
+        }
+        
+        # 建立傀儡关系
+        ITA = {
+            puppet = CRO
+            puppet = MNT
+     }
+        GER = {
+            puppet = SER
+        }
+    }
+}

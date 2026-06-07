@@ -1,0 +1,24 @@
+
+state={
+	id=1258
+	name="STATE_1258" # Cameroon
+	manpower = 1045782
+	
+	state_category = rural
+
+	history={
+		owner = FRA
+		add_core_of = CMR
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+		}
+
+	}
+
+	provinces={
+		5036 13391 13958 13976 13985 15442 
+	}
+
+	local_supplies=0.0 
+}

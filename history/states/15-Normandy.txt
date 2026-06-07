@@ -1,0 +1,51 @@
+
+state={
+	id=15
+	name="STATE_15"
+	manpower = 1000000
+	resources={
+		steel=11 # was: 36
+	}
+	
+	state_category = city
+
+	history={
+		owner = FRA
+		victory_points = {
+			6449 7
+		}
+
+		victory_points = {
+			11535 12
+		}
+
+		victory_points = {
+			9578 3
+		}
+
+		victory_points = {
+			3549 1
+		}
+
+		victory_points = {
+			3534 2
+		}
+
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+			air_base = 3
+			6449 = {
+				naval_base = 3
+				coastal_bunker = 1
+			}
+		}
+		add_core_of = FRA
+	}
+
+	provinces={
+		539 553 3534 3549 3579 6449 6599 9550 9578 11521 11535 
+	}
+
+	local_supplies=0.0 
+}

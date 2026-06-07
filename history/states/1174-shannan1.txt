@@ -1,0 +1,60 @@
+state={
+	id=1174
+	name="STATE_1174"
+
+	history = {
+
+		owner = CHI
+		add_core_of = PRC
+		add_core_of = CHI
+		1936.1.1 = {
+			IF = {
+				limit = {
+					has_dlc = "No Compromise, No Surrender"
+				}
+				transfer_state_to = XIC
+				add_core_of = XIC
+			}
+		}
+
+		1938.10.25 = {
+		IF = {
+				limit = {
+					has_dlc = "No Compromise, No Surrender" 
+				}
+				remove_core_of = XIC
+			}		
+			owner = CHI
+			controller = CHI
+		}
+
+		victory_points = {
+			7301 2 # Xian
+		}
+
+		victory_points = {
+			7418 26
+		}
+
+		victory_points = {
+			19617 4
+		}
+
+		victory_points = {
+			2006 9 
+		}
+
+		buildings = {
+			infrastructure = 1
+		}
+
+	}
+
+	provinces={
+		1976 2006 5007 7301 7418 9005 10733 12156 16836 16864 19507 19515 19565 19610 19617 
+	}
+	manpower=1724161
+	buildings_max_level_factor=1
+	state_category = town
+	local_supplies=0
+}

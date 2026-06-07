@@ -1,0 +1,24 @@
+state={
+	id=1116
+	name="STATE_1116"
+
+	history = {
+
+		owner = FRA
+		add_core_of = VIN
+		
+		victory_points = {
+			9948 1 # Cao Bang 
+		}
+
+	}
+
+	provinces={
+		7093 9948 
+	}
+
+	manpower=500000
+	buildings_max_level_factor=1
+	state_category = town
+	local_supplies=0
+}

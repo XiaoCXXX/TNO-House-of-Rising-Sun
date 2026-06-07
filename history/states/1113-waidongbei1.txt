@@ -1,0 +1,28 @@
+state={
+	id=1113
+	name="STATE_1113"
+
+	history = {
+
+		owner = SOV
+		add_core_of = SOV
+		add_core_of = FER
+		add_claim_by = IRK
+
+		buildings = {
+			infrastructure = 1
+
+		}
+
+
+	}
+
+	provinces={
+		1724 1739 4731 4847 7754 7763 12657 14875 19466 19483 
+	}
+
+	manpower=354212
+	buildings_max_level_factor=1
+	state_category = rural
+	local_supplies=0
+}

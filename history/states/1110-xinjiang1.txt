@@ -1,0 +1,36 @@
+state={
+	id=1110
+	name="STATE_1110"
+
+	history = {
+		owner = KHM
+		add_core_of = KHM
+		add_core_of = SIK
+		add_core_of = CHI
+		add_core_of = PRC
+
+		buildings = {
+			infrastructure = 1
+
+		}
+
+		1938.10.25 = {
+			IF = {
+				limit = {
+					has_dlc = "No Compromise, No Surrender" 
+				}
+				remove_core_of = KHM
+			}	
+			owner = SIK
+			controller = SIK	
+		}
+	}
+
+	provinces={
+		19779 
+	}
+	manpower=5721
+	buildings_max_level_factor=1
+	state_category = wasteland
+	local_supplies=0
+}

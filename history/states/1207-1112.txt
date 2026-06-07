@@ -1,0 +1,23 @@
+
+state={
+	id=1207
+	name="STATE_1207"
+	provinces={
+		1774 1855 4751 7808 7870 19697 19752 
+	}
+
+	history={
+		owner = MON
+		buildings = {
+			infrastructure = 1
+		}
+		add_core_of = MON
+		add_claim_by = CHI
+		add_claim_by = PRC
+		add_claim_by = SIK
+	}
+	manpower=2000
+	buildings_max_level_factor=1.000
+	state_category = wasteland
+	local_supplies=0.000
+}

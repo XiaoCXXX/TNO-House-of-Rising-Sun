@@ -1,0 +1,80 @@
+state={
+	id=1126
+	name="STATE_1126"
+
+	resources = {
+		coal = 2
+	}
+
+	history = {
+
+		owner = XSM
+		add_core_of = XSM
+		add_core_of = CHI
+		add_core_of = PRC
+
+		buildings = {
+			infrastructure = 1
+
+			8127 = {
+				landmark_great_wall_section = {
+				    level = 1
+				    allowed = {
+				        has_dlc = "No Compromise, No Surrender"
+				    }
+				}
+			}
+		}
+
+		victory_points = {
+			8127 13 # Yinchuan
+		}
+
+		victory_points = {
+			5031 1 # Alxa Right Banner
+		}
+
+		victory_points = { 
+			8081 1
+		}
+
+		victory_points = { 
+			16476 3
+		}
+
+		1936.1.1 = {
+			IF = {
+				limit = {
+					has_dlc = "No Compromise, No Surrender" 
+				}
+				NXM = { transfer_state = PREV }
+				add_core_of = NXM
+				remove_core_of = XSM
+			}
+		}
+
+
+		1938.10.25 = {
+			if = {
+				limit = {
+					NOT = {
+						has_dlc = "Waking the Tiger" 
+					}
+				}
+				CHI = {
+					transfer_state = PREV
+
+				}
+			}
+		}
+
+	}
+
+	provinces={
+		3742 4243 8055 8081 8127 10724 15190 16476 16849 
+	}
+	manpower=1000000
+	buildings_max_level_factor=1
+	state_category = pastoral
+	local_supplies=0
+}

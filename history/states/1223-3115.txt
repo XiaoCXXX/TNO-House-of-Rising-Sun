@@ -1,0 +1,29 @@
+
+state={
+	id=1223
+	name="STATE_1223"
+	history = {
+		add_core_of = CAM
+		owner = FRA
+
+		victory_points = {
+			10177 4
+		}
+
+		victory_points = {
+			10467 2 
+		}
+
+		buildings = {
+			infrastructure = 1
+		}
+	}
+	provinces={
+		1353 4251 4302 10134 10177 10467 12447 12460 13924 19096 
+	}
+	manpower=525000
+	buildings_max_level_factor=1.000
+	state_category=town
+
+	local_supplies=0.0 
+}

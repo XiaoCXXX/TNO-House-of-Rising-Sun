@@ -1,0 +1,33 @@
+state={
+	id=1139
+	name="STATE_1139"
+
+	history = {
+
+		owner = PAL
+		add_core_of = PAL
+		add_core_of = ISR
+
+		buildings = {
+			infrastructure = 1 
+
+		}
+		victory_points = {
+			1086 24 # Jerusalem
+		}
+
+		victory_points = {
+			7107 3 
+		}
+		
+	}
+
+	provinces={
+		1086 7107 15803 15805 
+	}
+
+	manpower=200000
+	buildings_max_level_factor=1
+	state_category = rural
+	local_supplies=0
+}

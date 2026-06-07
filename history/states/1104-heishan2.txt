@@ -1,0 +1,27 @@
+state={
+	id=1104
+	name="STATE_1104"
+
+	history={
+		victory_points = {
+			9821 1
+		}
+		owner = YUG
+		add_core_of = MNT
+		buildings = {
+			infrastructure = 1
+			9821 = {
+				naval_base = 1
+			}
+		}
+		add_core_of = YUG
+
+	}
+	provinces={
+		9821 
+	}
+	manpower=95500
+	buildings_max_level_factor=1
+	state_category=rural
+	local_supplies=0
+}

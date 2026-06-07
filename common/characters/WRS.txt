@@ -1,0 +1,31 @@
+characters = {
+	Portrait_WRRF_Power_Vacuum = {
+		name = "西俄罗斯临时委员会" 
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/WRS/Portrait_WRRF_Power_Vacuum.png"
+			}
+		}
+		country_leader = {
+			ideology = anarchism
+			expire = "1955.1.1.1"
+			id = -1
+		}
+		country_leader = {
+			ideology = socialism
+			expire = "1955.1.1.1"
+			id = -1
+		}
+		country_leader = {
+			ideology = leninism
+			expire = "1955.1.1.1"
+			id = -1
+		}
+		country_leader = {
+			ideology = fascism_ideology
+			expire = "1955.1.1.1"
+			id = -1
+		}
+	}
+}
+	

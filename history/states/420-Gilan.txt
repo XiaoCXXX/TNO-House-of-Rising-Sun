@@ -1,0 +1,50 @@
+
+state={
+	id=420
+	name="STATE_420"
+	manpower = 1314948
+	
+	state_category = rural
+
+	history={
+		owner = PER
+		victory_points = {
+			7969 5
+		}
+		victory_points = {
+			4901 3
+		}
+		victory_points = {
+			4609 2
+		}
+		victory_points = {
+			18804 11
+		}
+		victory_points = {
+			4637 2
+		}
+		victory_points = {
+			18800 1
+		}
+		victory_points = {
+			15144 4
+		}
+		victory_points = {
+			4553 2
+		}
+		buildings = {
+			infrastructure = 2
+			4609 = { #Bandar-e Anzali - Caspian Sea addition
+				naval_base = 2
+			}
+		}
+		add_core_of = PER
+		add_core_of = AZR
+	}
+
+	provinces={
+		4553 4609 4637 4901 10454 10523 13615 15144 15145 15150 18726 18738 18741 18744 18752 18757 18759 18785 18795 18800 18804 18805 18812 
+	}
+
+	local_supplies=3.0 
+}

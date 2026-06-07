@@ -1,0 +1,33 @@
+state={
+	id=1118
+	name="STATE_1118"
+
+	history = {
+
+		owner = JAP
+		add_core_of = CHI
+		add_core_of = PRC
+
+	victory_points = {
+		1175 3	 
+	}
+
+	victory_points = {
+		15887 6	 
+	}
+
+	victory_points = {
+		9955 3	 
+	}
+
+    }
+
+	provinces={
+		1175 4096 9955 15887 15888 15894 
+	}
+
+	manpower=1000000
+	buildings_max_level_factor=1
+	state_category = large_town
+	local_supplies=0
+}

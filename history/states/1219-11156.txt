@@ -1,0 +1,32 @@
+
+state = {
+	id = 1219
+	name = "STATE_1219"
+
+	history = {
+
+		owner = SOV
+
+		buildings = {
+			infrastructure = 2 #was: 5
+		}
+
+		add_core_of = SOV
+		add_claim_by = WRS
+
+		victory_points = {
+			4311 1 # Beloretsk
+		}
+
+	}
+
+	provinces = {
+		4265 4311 4383 7300 7373 10136 10142 10185 12117 12200 14868 15470 
+	}
+
+	manpower = 63142
+	buildings_max_level_factor = 1.000
+	state_category = rural
+
+	local_supplies = 0.0 
+}

@@ -1,0 +1,22 @@
+
+state={
+	id=1257
+	name="STATE_1257"
+
+	history={
+		owner = ENG
+
+		buildings = {
+			infrastructure = 1
+		}
+		add_core_of = CMR
+	}
+
+	provinces={
+		10831 15441 15444 
+	}
+	manpower=11121
+	buildings_max_level_factor=1
+	state_category = rural
+	local_supplies=0
+}

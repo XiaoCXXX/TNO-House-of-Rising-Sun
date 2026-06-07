@@ -1,0 +1,28 @@
+state={
+	id=1141
+	name="STATE_1141"
+
+	history={
+		owner = SYR
+		victory_points = {
+			1549 1
+		}
+		victory_points = {
+			6883 1
+		}
+		buildings = {
+			infrastructure = 1
+		}
+		add_core_of = SYR
+		add_core_of = KUR
+	}
+
+	provinces={
+		901 1549 1578 1606 1634 6883 10882 14443 14463 16279 16280 16281 16283 18477 16282
+	}
+
+	manpower=224110
+	buildings_max_level_factor=1
+	state_category = wasteland
+	local_supplies=0
+}

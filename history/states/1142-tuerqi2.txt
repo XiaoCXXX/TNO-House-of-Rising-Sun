@@ -1,0 +1,25 @@
+state={
+	id=1142
+	name="STATE_1142"
+
+	history={
+		owner = SYR
+		buildings = {
+			infrastructure = 1
+			1088 = {
+				naval_base = 1
+			}
+		}
+		add_core_of = SYR
+
+	}
+
+	provinces={
+		1088 7140 7671 14685 14686 16261 
+	}
+
+	manpower=325435
+	buildings_max_level_factor=1
+	state_category=town
+	local_supplies=0
+}

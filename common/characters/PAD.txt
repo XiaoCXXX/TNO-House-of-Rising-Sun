@@ -1,0 +1,31 @@
+characters = {
+	PAD_shuang_dagong = {
+		name = "安道尔双大公" 
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/PAD/Portrait_Andorra_CoPrinces.png"
+			}
+		}
+		country_leader = {
+			ideology = anarchism
+			expire = "1962.1.1.1"
+			id = -1
+		}
+		country_leader = {
+			ideology = socialism
+			expire = "1962.1.1.1"
+			id = -1
+		}
+		country_leader = {
+			ideology = anarchist_communism
+			expire = "1962.1.1.1"
+			id = -1
+		}
+		country_leader = {
+			ideology = fascism_ideology
+			expire = "1962.1.1.1"
+			id = -1
+		}
+	}
+}
+	

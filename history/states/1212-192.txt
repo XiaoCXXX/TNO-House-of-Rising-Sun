@@ -1,0 +1,26 @@
+
+state = {
+	id = 1212
+	name = "STATE_1212"
+	
+	state_category = rural
+	manpower = 79213
+	
+	history = {
+		owner = BRM
+		add_core_of = BRM
+		add_claim_by = CHI
+		add_claim_by = PRC
+
+		buildings = {
+			infrastructure = 1
+		}
+	}
+
+	provinces={
+		1197 1934 4087 4318 4996 19042 19057 19062 19063 19068 19073 19080 
+	}
+
+	local_supplies = 0.000
+	buildings_max_level_factor = 1.000
+}

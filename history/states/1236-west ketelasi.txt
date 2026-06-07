@@ -1,0 +1,23 @@
+
+state = {
+	id = 1236
+	name = "STATE_1236" # Kotlas
+	manpower = 127542
+	
+	state_category = rural
+
+	history = {
+		owner = SOV
+		buildings = {
+			infrastructure = 1
+		}
+		add_core_of = SOV
+		add_core_of = WRS
+	}
+
+	provinces = {
+		186 3064 3166 6088 6100 6193 6199 9101 9124 9213 17044 
+	}
+
+	local_supplies = 0.0 
+}

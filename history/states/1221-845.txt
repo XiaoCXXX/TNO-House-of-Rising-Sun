@@ -1,0 +1,23 @@
+
+state={
+	id=1221
+	name="STATE_1221"
+	provinces={
+		4873 12629 14398 14405 16706 16835 17217 
+	}
+
+	history={
+		owner = MON
+		buildings = {
+			infrastructure = 1
+		}
+		add_core_of = MON
+		add_claim_by = CHI
+		add_claim_by = PRC
+		add_claim_by = MEN
+	}
+	manpower=5000
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+	local_supplies=0.000
+}

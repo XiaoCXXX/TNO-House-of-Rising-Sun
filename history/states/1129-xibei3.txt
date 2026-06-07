@@ -1,0 +1,46 @@
+state={
+	id=1129
+	name="STATE_1129"
+
+	history = {
+
+		owner = XSM
+		add_core_of = XSM
+		add_core_of = CHI
+		add_core_of = PRC
+
+		buildings = {
+			infrastructure = 1
+		}
+
+		1936.1.1 = {
+			IF = {
+				limit = {
+					has_dlc = "No Compromise, No Surrender"
+				}
+				transfer_state_to = SIC
+				add_core_of = SIC
+				remove_core_of = XSM
+			}
+		}
+
+		1938.10.25 = {
+		IF = {
+				limit = {
+					has_dlc = "No Compromise, No Surrender" 
+				}
+				remove_core_of = SIC
+			}		
+			owner = CHI
+			controller = CHI
+		}
+
+	}
+	provinces={
+		15522 
+	}
+	manpower=9542
+	buildings_max_level_factor=1
+	state_category = rural
+	local_supplies=0
+}

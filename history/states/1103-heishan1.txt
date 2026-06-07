@@ -1,0 +1,25 @@
+state={
+	id=1103
+	name="STATE_1103"
+
+	history={
+
+		owner = YUG
+		add_core_of = YUG
+		add_core_of = SER
+
+		victory_points = {
+			16198 1
+		}
+
+	}
+
+	provinces={
+		16198 16199 
+	}
+
+	manpower=12000
+	buildings_max_level_factor=1
+	state_category=town
+	local_supplies=0
+}

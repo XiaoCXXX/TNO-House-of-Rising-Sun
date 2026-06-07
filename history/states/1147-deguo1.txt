@@ -1,0 +1,21 @@
+state={
+	id=1147
+	name="STATE_1147"
+
+	history = {
+
+		owner = SOV
+		add_core_of = SOV
+		add_core_of = NEN
+		add_core_of = WRS
+
+	}
+
+	provinces={
+		11047 16820 16821 
+	}
+	manpower=50
+	buildings_max_level_factor=1
+	state_category = rural
+	local_supplies=0
+}

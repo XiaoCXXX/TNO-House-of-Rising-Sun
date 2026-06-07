@@ -1,0 +1,27 @@
+
+state={
+	id=1203
+	name="STATE_1203"
+
+	history={
+		owner = FRA
+		add_core_of = CHA
+		victory_points = {
+			1883 1
+		}
+		buildings = {
+			infrastructure = 1
+
+		}
+
+	}
+
+	provinces={
+		1883 1993 13211 13650 14091 14097 14105 14112 16910 
+	}
+	manpower=319456
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+
+	local_supplies=3.0 
+}

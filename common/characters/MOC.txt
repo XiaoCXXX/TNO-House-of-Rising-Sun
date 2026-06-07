@@ -1,0 +1,31 @@
+characters = {
+	MOC_lu_yiershi = {
+		name = "路易二世亲王" 
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/MOC/MOC.png"
+			}
+		}
+		country_leader = {
+			ideology = anarchism
+			expire = "1962.1.1.1"
+			id = -1
+		}
+		country_leader = {
+			ideology = socialism
+			expire = "1962.1.1.1"
+			id = -1
+		}
+		country_leader = {
+			ideology = anarchist_communism
+			expire = "1962.1.1.1"
+			id = -1
+		}
+		country_leader = {
+			ideology = fascism_ideology
+			expire = "1962.1.1.1"
+			id = -1
+		}
+	}
+}
+	

@@ -1,0 +1,22 @@
+state={
+	id=1134
+	name="STATE_1134"
+
+	history={
+		owner = PAD
+
+		buildings = {
+			infrastructure = 1
+		}
+		add_core_of = PAD
+
+	}
+
+	provinces={
+		14477 
+	}
+	manpower=1500
+	buildings_max_level_factor=1
+	state_category = city
+	local_supplies=0
+}

@@ -1,0 +1,28 @@
+
+state={
+	id=1234
+	name="STATE_1234"
+	provinces={
+		5030 7201 10757 12086 12414 19591 19637 19675 19760 19783 19837 
+	}
+	manpower=1136000
+	buildings_max_level_factor=1.000
+	state_category = town
+	history={
+		owner = CHI
+		add_core_of = CHI
+		add_core_of = PRC
+		buildings = {
+			infrastructure = 1
+		}
+		1939.1.1 = {
+			buildings = {
+				industrial_complex = 2
+			}
+
+		}
+
+	}
+
+	local_supplies=0.0 
+}

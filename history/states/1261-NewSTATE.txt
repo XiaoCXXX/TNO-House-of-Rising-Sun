@@ -1,0 +1,22 @@
+state={
+	id=1261
+	name="STATE_1261"
+	manpower = 98800
+	state_category = pastoral
+	history={
+		owner = POR
+		buildings = {
+			infrastructure = 1
+
+		}
+		add_core_of = MZB
+	}
+
+
+	provinces={
+		12950 13753 13771 13774 
+	}
+	
+	buildings_max_level_factor=1
+	local_supplies=0
+}

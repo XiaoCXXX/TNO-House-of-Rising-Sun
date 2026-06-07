@@ -1,0 +1,23 @@
+
+state={
+	id=1201
+	name="STATE_1201"
+
+	history={
+		owner = FRA
+
+		buildings = {
+			infrastructure = 1
+		}
+		add_core_of = CMR
+	}
+
+	provinces={
+		7963 11194 11702 14024 14044 14080 14294 15446 15580 14006 15448
+	}
+	manpower=41121
+	buildings_max_level_factor=1
+	state_category = rural
+	local_supplies=0
+}
+
